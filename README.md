@@ -23,7 +23,7 @@ Uma API REST desenvolvida em **Node.js** e **TypeScript** que simula o funcionam
 ## Como Executar
 
 ```bash
-git clone <url-do-repositorio>
+git clone <https://github.com/JosePedroCursino/desafioMorada>
 cd DesafioATM
 npm install
 npm run build
