@@ -29,16 +29,16 @@ npm install
 npm run build
 npm start
 ```
-- A API estará disponível em: http://localhost:5000
+- A API estará disponível em: `http://localhost:5000`
 
 ---
 
 ## Endpoints Principais
 
-- GET /
+- GET / <br>
   Verifica se a API está ativa.
 
-- POST /api/saque
+- POST /api/saque <br>
   Recebe um valor e retorna a quantidade de cédulas necessárias.
 
 ---
