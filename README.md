@@ -88,4 +88,10 @@ Mensagens de erro para o caso de valores não inteiros, zero ou não números, a
 
 ## Desafios para a construção do projeto
 
-Inicialmente, Foi facil pensar na lógica básica para o calculo das notas, bastaria dividir o valor pela maior nota, depois colocar o resto na proxima nota e sucessivamente até o valor chegar a 0. Ná prática, isso funcionava mas alguns valores não atenderiam por causa de valores que terminassem em 1,3,6, ou 8, então usei uma validação de se o número for impar, já incluir uma nota de 5 e dividir o resto por 2, fazendo assim que qualquer valor (exceto 1 e 3) possam ser sacados. Sobre a implementação, meu maior desafio foi a formação do arquivo index.ts. Inicialmente, fiz a lógica em Javascript, passando para Typescript como um desafio para mim mesmo, mas como não tinha muita experiencia com API, fazer o arquivo foi bem desafiador mas bem satisfatório, funcionando bem depois que eu entendi as variaveis e a formatação. Além disso, fazer o repositório no Github precisou um pouco de pesquisa de formatação.
+Inicialmente, foi fácil pensar na lógica básica para o cálculo das notas: bastava dividir o valor pela maior denominação, depois aplicar o resto na próxima, e assim sucessivamente até o valor chegar a zero. Na prática, isso funcionava, mas alguns valores não poderiam ser atendidos — especialmente aqueles que terminavam em 1, 3, 6 ou 8.
+
+Para resolver isso, adicionei uma validação: se o número fosse ímpar, o sistema já incluiria uma nota de 5 e dividiria o restante por 2. Dessa forma, qualquer valor (exceto 1 e 3) poderia ser sacado corretamente.
+
+Quanto à implementação, meu maior desafio foi a criação do arquivo index.ts. Inicialmente, desenvolvi a lógica em JavaScript e depois a converti para TypeScript como um desafio pessoal. Porém, como eu ainda não tinha muita experiência com APIs, montar o arquivo foi bastante desafiador — mas também muito satisfatório, principalmente depois que entendi melhor as variáveis e a estrutura do código.
+
+Além disso, a parte de criar e formatar o repositório no GitHub exigiu um pouco de pesquisa sobre padronização e boas práticas de documentação.
